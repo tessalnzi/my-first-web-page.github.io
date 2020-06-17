@@ -1,0 +1,150 @@
+body {
+	font-family: arial;
+	text-align: center;
+	background-image: url(images/fleur.jpg);
+}
+
+h1 {
+	font-size: 34px;
+	color: white;
+	font-family: roboto condensed, sans-serif;
+}
+
+h2, h3, h4, p, h6 {
+	color: white;
+}
+
+h3 {
+	font-size: 50px;
+	font-family: Andrea Bilarosa;
+}
+
+ul, ol {
+	text-align: left;
+}
+
+p {
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: left;
+}
+
+li {
+	color: white;
+	text-align: left;
+	margin-right: 300px;
+	margin-left: 400px;
+
+}
+
+.cadre {
+	background: #BC5959; 
+	margin: 40px;
+	padding: 50px;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+.prod1 {
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.my-btn {
+	display: inline-block;
+	margin: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	background: #BC5959;
+	box-shadow: 5px 5px 10px #FF7878; /*mettre des ombres*/
+	padding: 15px;
+	text-decoration: none; /*enlever le souligné*/
+
+}
+
+.my-btn:hover {
+	background: white;
+	text-decoration: none;
+	color: #BC5959;
+}
+
+.mail {
+	color: white;
+}
+
+.mail:hover {
+	color:white;
+}
+
+
+.my-navbar {
+	background: #BC5959;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 4%;
+	height: 50px;
+	background: #BC5959;
+
+
+}
+
+.link {
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	background: #BC5959;
+	padding: 5px;
+	text-decoration: none;
+
+}
+
+.link:hover {
+	background: white;
+	text-decoration: none;
+	color: #BC5959;
+	border-radius: 5px;
+
+}
+
+.card-text {
+	color: black;
+}
+
+.carte {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer {
+  background: #949494;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
